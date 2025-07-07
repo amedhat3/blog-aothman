@@ -1,0 +1,39 @@
+###############################################################################
+# Basic site settings
+###############################################################################
+baseURL = 'https://blog.aothman.com'
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+title   = "Search, Relevance & Leadership"
+
+theme = 'ananke'
+#theme = 'PaperMod'
+
+###############################################################################
+# Output formats – adds RSS and the JSON index (used by Lunr)
+###############################################################################
+#[outputs]
+#  home = ["HTML", "RSS", "JSON"]
+
+
+
+[params]
+#env = "production"
+title = "My Blog"
+description = "Deep dives into e-commerce search, ranking, vector retrieval and tech leadership."
+author = "Ahmed Othman"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false

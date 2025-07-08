@@ -18,7 +18,7 @@ theme = 'DoIt'
 
 
 [params]
-    #env = "production"
+    env = "production"
     title = "Search, Relevance & Leadership"
     description = "Deep dives into e-commerce search, ranking, vector retrieval and tech leadership."
     ShowReadingTime = true

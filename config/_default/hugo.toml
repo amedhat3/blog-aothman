@@ -9,10 +9,3 @@ title   = "Ahmed Othman | Search, Relevance & Leadership"
 theme = 'DoIt'
 #theme = 'ananke'
 #theme = 'PaperMod'
-
-###############################################################################
-# Output formats – adds RSS and the JSON index (used by Lunr or Fuse.js)
-###############################################################################
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
-

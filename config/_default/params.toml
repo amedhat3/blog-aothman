@@ -77,3 +77,7 @@ favicon = "/favicon.ico"
     Linkedin = "ahmed-othman"                 # username only → https://linkedin.com/in/ahmed-othman
     RSS      = true                           # show the RSS icon
     X  = "_ahmed_othman"                             # leave empty if you don’t use Twitter
+
+###############################################################################
+# Comments (giscus)
+###############################################################################

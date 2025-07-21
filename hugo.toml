@@ -4,7 +4,7 @@
 baseURL = 'https://blog.aothman.de'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
-title   = "Search, Relevance & Leadership"
+title   = "Ahmed Othman | Search, Relevance & Leadership"
 
 theme = 'DoIt'
 #theme = 'ananke'
@@ -31,7 +31,6 @@ theme = 'DoIt'
     UseHugoToc = true
     disableSpecial1stPost = false
     disableScrollToTop = false
-    comments = true
     hidemeta = false
     hideSummary = false
     showtoc = true
@@ -46,13 +45,10 @@ theme = 'DoIt'
 
     ## — header (logo / title if you want) —
     [params.header]                    #  [oai_citation:1‡hugodoit.pages.dev](https://hugodoit.pages.dev/theme-documentation-basics/)
-        logo = "/images/icon.svg"        # path to your logo; put the file in /static/images/
-        #logo = "fa-solid fa-magnifying-glass"   # FA class names
         logoLink = "/"                      # (optional) click-to-home
-        
         [params.header.title]
-            name = "Search, Relevance & Leadership - Ahmed Othman"
-            logo = "/images/icon.svg"
+            name = "Ahmed Othman | Search, Relevance & Leadership"
+            logo = "/images/logo.png" # path to your logo; put the file in /static/images/            
 
     ## — home-page hero / profile —
     [params.home]                      #  [oai_citation:2‡hugodoit.pages.dev](https://hugodoit.pages.dev/theme-documentation-basics/)
@@ -62,7 +58,7 @@ theme = 'DoIt'
         [params.home.profile]
             enable       = true            # turns the hero section on
             title        = "Search • Relevance • Tech Leadership"  # tagline line 1
-            subtitle     = "Senior Technology Leader originally from Egypt. Currently, looking after the Core Search teams at Zalando, based in Berlin, Germany. Before that, I used to work as an Engineering Manager at Rakuten, based in Tokyo, Japan."      # tagline line 2
+            subtitle     = "Senior Technology Leader originally from Egypt 🇪🇬. Currently, looking after the Core Search teams at Zalando, based in Berlin, Germany 🇩🇪. Before that, I used to work as an Engineering Manager at Rakuten, based in Tokyo, Japan 🇯🇵."      # tagline line 2
             # Leave gravatarEmail empty if you set an avatar path above
             # gravatarEmail = "amedhat.cs@gmail.com"
             avatarURL = "/images/aothman_avatar.jpg"

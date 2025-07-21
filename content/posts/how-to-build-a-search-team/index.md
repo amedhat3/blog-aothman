@@ -6,9 +6,6 @@ description: "Article about Search team building and organization patterns."
 tags: ["Search", "Leadership"]
 featuredImage: "search.png"
 ---
-# Building an E‑Commerce Search Team
-
-> *A first‑draft outline you can refine, reorder, or split into multiple posts.*
 
 ## Why a Dedicated Search Organisation?
 

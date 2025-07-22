@@ -76,8 +76,35 @@ favicon = "/favicon.ico"
     GitHub   = "amedhat3"                     # username only → https://github.com/amedhat3
     Linkedin = "ahmed-othman"                 # username only → https://linkedin.com/in/ahmed-othman
     RSS      = true                           # show the RSS icon
-    X  = "_ahmed_othman"                             # leave empty if you don’t use Twitter
+    X  = "_ahmed_othman"                      # leave empty if you don’t use Twitter
+
+# Table of the contents config
+[page.toc]
+    enable = true  # whether to enable the table of the contents
+    keepStatic = false # whether to keep the static table of the contents in front of the post
+    auto = true # whether to make the table of the contents in the sidebar automatically collapsed
 
 ###############################################################################
 # Comments (giscus)
 ###############################################################################
+[page.comment]
+  enable = true                  # master switch for comments
+
+    [page.comment.giscus] # giscus settings
+        enable              = true   # must be true as well
+
+        dataRepo            = "amedhat3/blog-aothman"       # required four IDs from giscus.app
+        dataRepoId          = "MDEwOlJlcG9zaXRvcnkzMjQwMjA0OTg="
+        dataCategory        = "blog-comments"
+        dataCategoryId      = "DIC_kwDOE1ApEs4CtN-B"
+
+        dataMapping         = "title"         # pathname / title / etc.
+        dataReactionsEnabled = "1"
+        dataEmitMetadata     = "0"
+        dataInputPosition    = "bottom"
+        dataLang             = "en"
+        dataLoading          = "lazy"
+
+        # let DoIt pick the right theme automatically
+        lightTheme = "light"          # any giscus light theme
+        darkTheme  = "dark"           # any giscus dark theme

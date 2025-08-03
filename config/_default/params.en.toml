@@ -1,0 +1,273 @@
+# website title
+title = "Search, Relevance & Leadership"
+
+# DoIt theme version
+version = "0.4.2"
+
+# site default theme ("light", "dark", "black", "auto")
+defaultTheme = "auto"
+
+# public git repo url only then enableGitInfo is true
+gitRepo = "https://github.com/amedhat3/blog-aothman/"
+
+# which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
+fingerprint = "md5"
+
+# date format
+#dateFormat = "2006-01-02"
+
+# website images for Open Graph and Twitter Cards
+images = ["/images/aothman_avatar.jpg"]
+
+# enable PWA
+enablePWA = false
+
+# site description
+description = "Deep dives into e-commerce search, ranking, vector retrieval and tech leadership."
+# site keywords
+keywords = ["Ahmed Othman", "Search Engine", "Ranking", "Tech Leadership", "Entrepreneur", "CTO"]
+favicon = "/favicon.ico"
+
+# App icon config
+[app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    # title = "Search, Relevance & Leadership"
+    
+    # whether to omit favicon resource links
+    noFavicon = false
+
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    
+    # Windows v8-10 tile color
+    tileColor = "#da532c"
+
+## — Blog Author    
+[Author]
+    name  = "Ahmed Othman"
+    link  = "https://blog.aothman.de"
+    email = "blog@aothman.de"
+    avatar = "/images/aothman_avatar.jpg"         # optional – used in footer/SEO
+
+[image]
+  # cache remote images for better optimisations
+  cacheRemote = true
+  # Image resizing and optimisation
+  optimise = true
+
+## — home-page hero / profile —
+[home]                      #  [oai_citation:2‡hugodoit.pages.dev](https://hugodoit.pages.dev/theme-documentation-basics/)
+    # number of posts in RSS etc. (leave your values)
+    rss = 10
+
+    [home.profile]
+        enable = true            # turns the hero section on
+        
+        # title shown in home page (HTML format is supported)
+        title = "Search • Relevance • Tech Leadership"
+        
+        # subtitle shown in home page
+        subtitle = "Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Currently looking after the Core Search teams at Zalando, based in Berlin, Germany 🇩🇪. Before that, I used to manage multiple engineering teams at Rakuten, based in Tokyo, Japan 🇯🇵."      # tagline line 2
+        
+        # whether to use typeit animation for subtitle
+        typeit = true
+
+        # URL of avatar shown in home page
+        avatarURL = "/images/aothman_avatar.jpg"
+        
+        # URL the avatar links to
+        avatarLinkURL = "/"
+
+        # whether to show social links
+        social = true            # show social icons under the avatar
+        
+        # disclaimer (HTML format is supported)
+        disclaimer = """
+            <div class="hero-cta">
+                <a class="btn-primary" href="mailto:blog@aothman.de?subject=REF:Blog Contact-Me:">Contact me</a>
+                <a class="btn-secondary" href="https://cal.com/aothman/" target="_blank">Book an appointment</a>
+            </div>
+        """
+    # Home page posts
+    [home.posts]
+        enable = true
+        # special amount of posts in each home posts page
+        paginate = 7
+
+[header]                    #  [oai_citation:1‡hugodoit.pages.dev](https://hugodoit.pages.dev/theme-documentation-basics/)
+    
+    # theme change mode ("switch", "select")
+    themeChangeMode = "switch"
+    
+    logoLink = "/"                      # (optional) click-to-home
+    [header.title]
+        name = "Ahmed Othman | Tech Leadership"
+        logo = "/images/logo.png" # path to your logo; put the file in /static/images/
+        
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        
+        # whether to use typeit animation for title name
+        typeit = false
+
+# Footer config
+[footer]
+  enable = true
+  # Custom content (HTML format is supported)
+  custom = ''
+  # whether to show Hugo and theme info
+  hugo = true
+  # Hosted on (HTML format is supported)
+  # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
+  hostedOn = ''
+  # whether to show copyright info
+  copyright = true
+  # whether to show the author
+  author = true
+
+# Section (all posts) page config
+[section]
+  # special amount of posts in each section page
+  paginate = 20
+  
+  # date format (month and day)
+  dateFormat = "01-02"
+  
+  # amount of RSS pages
+  rss = 10
+  
+  # recently updated posts settings
+  [section.recentlyUpdated]
+    enable = false
+    rss = true
+    days = 30
+    maxCount = 10
+
+# List (category or tag) page config
+[list]
+  # special amount of posts in each list page
+  paginate = 20
+  # date format (month and day)
+  dateFormat = "01-02"
+  # amount of RSS pages
+  rss = 10
+
+
+# Page config
+[page]
+    # whether to hide a page from home page
+    hiddenFromHomePage = false
+    
+    # whether to hide a page from search results
+    hiddenFromSearch = false
+    
+    # whether to show the full text content in RSS
+    rssFullText = false
+
+    # whether to enable last modified time
+    enableLastMod = false
+
+    # whether to enable word count
+    enableWordCount = true
+
+    # whether to enable reading time estimation
+    enableReadingTime = true
+
+    # Table of the contents config
+    [page.toc]
+        # whether to enable the table of the contents
+        enable = true
+        # whether to keep the static table of the contents in front of the post
+        keepStatic = false
+        # whether to make the table of the contents in the sidebar automatically collapsed
+        auto = true
+    # Code config
+    [page.code]
+        # the maximum number of lines of displayed code by default
+        maxShownLines = 20
+        # whether to enable line numbers in the code block
+        lineNos = true
+        # whether to enable line wrapping in the code block
+        wrap = false
+        # whether to display the header in the code block
+        header = true
+    
+    # Social share links in post page
+    [page.share]
+        enable = true
+        Facebook = true
+        Flipboard = true
+        HackerNews = true
+        Linkedin = true
+        Reddit = true
+        Telegram = true
+        Twitter = true
+        Mastodon = true
+    
+    ###############################################################################
+    # Comments (giscus)
+    ###############################################################################
+    [page.comment]
+    enable = true                  # master switch for comments
+
+        [page.comment.giscus] # giscus settings
+            enable              = true   # must be true as well
+
+            dataRepo            = "amedhat3/blog-aothman"       # required four IDs from giscus.app
+            dataRepoId          = "MDEwOlJlcG9zaXRvcnkzMjQwMjA0OTg="
+            dataCategory        = "blog-comments"
+            dataCategoryId      = "DIC_kwDOE1ApEs4CtN-B"
+
+            dataMapping         = "title"         # pathname / title / etc.
+            dataReactionsEnabled = "1"
+            dataEmitMetadata     = "0"
+            dataInputPosition    = "bottom"
+            dataLang             = "en"
+            dataLoading          = "lazy"
+
+            # let DoIt pick the right theme automatically
+            lightTheme = "light"          # any giscus light theme
+            darkTheme  = "dark"           # any giscus dark theme
+
+
+
+###############################################################################
+# Search Feature
+###############################################################################
+
+[search]                    #  [oai_citation:0‡hugodoit.pages.dev](https://hugodoit.pages.dev/theme-documentation-basics/)
+    enable          = true           # shows the magnifying-glass icon
+    type            = "fuse"         # simple, local, no API keys
+    contentLength   = 4000           # how much of each post goes into the index
+    maxResultLength = 10
+    snippetLength   = 30
+    highlightTag    = "em"
+        
+    [search.fuse]
+        # DoIt NEW | 0.2.12 https://fusejs.io/api/options.html
+        isCaseSensitive = false
+        minMatchCharLength = 2
+        findAllMatches = false
+        location = 0
+        threshold = 0.3
+        distance = 100
+        ignoreLocation = false
+        useExtendedSearch = false
+        ignoreFieldNorm = false
+
+###############################################################################
+# Social icons used by the hero header & footer
+###############################################################################
+
+[social]
+    GitHub   = "amedhat3"                     # username only → https://github.com/amedhat3
+    Linkedin = "ahmed-othman"                 # username only → https://linkedin.com/in/ahmed-othman
+    RSS      = true                           # show the RSS icon
+    X  = "_ahmed_othman"                      # leave empty if you don’t use Twitter
+    Email = "blog@aothman.de"

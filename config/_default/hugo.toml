@@ -4,8 +4,11 @@
 baseURL = 'https://blog.aothman.de'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
-title   = "Ahmed Othman | Search, Relevance & Leadership"
+title   = "Ahmed Othman | Technology Leadership"
 
 theme = 'DoIt'
 #theme = 'ananke'
 #theme = 'PaperMod'
+
+# Which sections to include in home page and RSS
+mainSections = ["posts"]

@@ -1,10 +1,11 @@
 ---
-date: "2025-07-06T23:57:16+02:00"
+date: "2025-07-06"
 draft: true
 title: "How to build A search team"
-description: "Article about Search team building and organization patterns."
 tags: ["Search", "Leadership"]
-featuredImage: "search.png"
+featuredImage: "search-box.png"
+description: "How to build a search team of different sizes"
+summary: "How to build a search team of different sizes based on the expertise you have and the available resources"
 ---
 
 ## Why a Dedicated Search Organisation?
@@ -17,7 +18,7 @@ featuredImage: "search.png"
 
 ---
 
-## Phase 0 — Seed Team (↔ 0–5M queries /day)
+## Phase 0 — Seed Team (↔ 0–5M queries /day)
 
 | Role                        | Focus                                 | Typical Head‑Count |
 | --------------------------- | ------------------------------------- | ------------------ |
@@ -44,17 +45,17 @@ flowchart LR
 
 ---
 
-## Phase 1 — Platform & Feature Streams (5–50M queries /day)
+## Phase 1 — Platform & Feature Streams (5–50M queries /day)
 
 ```
 Search Guild
-├─ Platform Squad     # owns infra & SLIs
+├─ Platform Squad     # owns infra & SLIs
 │   ├─ TL (Staff SWE)
-│   ├─ 3 Backend SWEs
+│   ├─ 3 Backend SWEs
 │   └─ SRE
-└─ Relevance Squad    # owns ranking & recall
+└─ Relevance Squad    # owns ranking & recall
     ├─ Applied Scientist
-    ├─ 3 Relevance Eng.
+    ├─ 3 Relevance Eng.
     └─ Data Analyst
 ```
 
@@ -72,7 +73,7 @@ Search Guild
 
 ---
 
-## Phase 2 — Domain‑Oriented Vertical Teams (>50M queries /day)
+## Phase 2 — Domain‑Oriented Vertical Teams (>50M queries /day)
 
 When search becomes a company‑wide product, split by **query intent verticals**:
 
@@ -123,15 +124,15 @@ Each vertical owns its own **Relevance Pod** (ranking + analyst) while sharing P
 
 | Phase               | KPI Plateau            | Org Smell                          |
 | ------------------- | ---------------------- | ---------------------------------- |
-| Seed → Platform     | P95 latency >400 ms    | Infra tasks blocking ranking ideas |
-| Platform → Vertical | >20 parallel A/B tests | Shared backlog becomes 50+ items   |
+| Seed → Platform     | P95 latency >400 ms    | Infra tasks blocking ranking ideas |
+| Platform → Vertical | >20 parallel A/B tests | Shared backlog becomes 50+ items   |
 
 ---
 
 ### Next Steps
 
 - Flesh out **On‑call playbook** & rotation chart.
-- Add cost vs latency quadrant diagram for infra trade‑offs.
+- Add cost vs latency quadrant diagram for infra trade‑offs.
 - Insert real‑world case studies: *“Rolling out neural reranking at 100 M Q/day”.*
 
 ---

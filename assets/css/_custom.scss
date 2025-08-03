@@ -1,0 +1,83 @@
+/* assets/css/_custom.scss  ─ picked up automatically by DoIt */
+
+
+/* Site accent colors derived from the logo */
+html[data-theme="light"], html.light {
+  /* Logo maroon for light theme */
+  --fgColor-link: #222;          /* base accent */
+  --fgColor-link-hover: #a93030;    /* hover accent */
+
+  /* Map DoIt/global link vars to the same accent */
+  --global-link-color: var(--fgColor-link);
+  --global-link-hover-color: var(--fgColor-link-hover);
+  --single-link-color: var(--fgColor-link);
+  --single-link-hover-color: var(--fgColor-link-hover);
+  --friend-link-color: var(--fgColor-link);
+  --friend-link-hover-color: var(--fgColor-link-hover);
+  --showcase-color: var(--fgColor-link);
+  --showcase-hover-color: var(--fgColor-link-hover);
+  --pagination-link-color: var(--fgColor-link);
+  --pagination-link-hover-color: var(--fgColor-link-hover);
+}
+
+html[data-theme="dark"], html.dark {
+  /* Brighter tint for dark theme */
+  --fgColor-link: #ddd;          /* base accent */
+  --fgColor-link-hover: #a93030;    /* hover accent */
+
+  /* Map DoIt/global link vars to the same accent */
+  --global-link-color: var(--fgColor-link);
+  --global-link-hover-color: var(--fgColor-link-hover);
+  --single-link-color: var(--fgColor-link);
+  --single-link-hover-color: var(--fgColor-link-hover);
+  --friend-link-color: var(--fgColor-link);
+  --friend-link-hover-color: var(--fgColor-link-hover);
+  --showcase-color: var(--fgColor-link);
+  --showcase-hover-color: var(--fgColor-link-hover);
+  --pagination-link-color: var(--fgColor-link);
+  --pagination-link-hover-color: var(--fgColor-link-hover);
+}
+
+/* Center the row */
+.hero-cta{
+  margin-top:1rem;
+  display:flex;
+  justify-content:center;
+  gap:.75rem;
+  flex-wrap:wrap;
+}
+
+/* Buttons (use the theme's link color via currentColor) */
+.hero-cta a{
+  display:inline-block;
+  padding:.66rem 1rem;
+  border-radius:.6rem;
+  font-weight:700;
+  text-decoration:none;
+}
+
+/* Solid primary */
+.hero-cta .btn-primary{
+    border:2px solid var(--fgColor-link);
+}
+//.hero-cta .btn-primary:hover{ color:#6f0c06; }
+.hero-cta .btn-primary:hover{
+  background: var(--fgColor-link);
+}
+
+/* Outline secondary */
+.hero-cta .btn-secondary{
+    border:2px solid var(--fgColor-link);
+}
+//.hero-cta .btn-secondary:hover{ color:#6f0c06; }
+.hero-cta .btn-secondary:hover{
+  background: var(--fgColor-link);
+ // color:#fff !important;
+}
+
+/* (optional) full-width on small screens */
+@media (max-width:480px){ .hero-cta a{ width:100%; } }
+
+//html::before{content:"CUSTOM CSS LOADEDdd";position:fixed;top:0;left:0;padding:.15rem .4rem;background:red;color:#fff;z-index:9999;font-size:12px;}
+
+

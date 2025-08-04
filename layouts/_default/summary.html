@@ -5,7 +5,7 @@
     {{- $image := $params.featuredImagePreview | default $params.featuredImage -}}
     {{- with $image -}}
         <div class="featured-image-preview">
-            <a href="{{ $.RelPermalink }}" aria-label={{ $.Title }}>
+            <a href="{{ $.RelPermalink }}" aria-label="{{ $.Title }}">
                 {{ $optim := slice 
                     (dict "Process" "fill 800x240 Center webp q75" "descriptor" "800w")
                     (dict "Process" "fill 1200x360 Center webp q75" "descriptor" "1200w")

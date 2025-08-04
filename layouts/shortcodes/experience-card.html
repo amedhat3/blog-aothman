@@ -1,0 +1,17 @@
+{{ $logo := .Get "logo" }}
+{{ $company := .Get "company" }}
+{{ $url := .Get "url" }}
+
+<div class="experience-card">
+  <div class="experience-card__logo">
+    {{ with $logo }}<a href="{{ $url }}"><img src="{{ . }}" alt="{{ $company }} logo"></a>{{ end }}
+  </div>
+  <div class="experience-card__body">
+    <h3 class="experience-card__title">
+      {{ .Get "title" }}
+      {{ with .Get "dates" }} <span class="experience-card__dates">({{ . }})</span>{{ end }}
+      {{ with .Get "location" }} <span class="experience-card__dates">({{ . }})</span>{{ end }}
+    </h3>
+    <div>{{ .Inner | markdownify }}</div>
+  </div>
+</div>

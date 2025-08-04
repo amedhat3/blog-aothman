@@ -1,0 +1,6 @@
+{{ $items := split (.Get "items") "," }}
+<div class="taglist">
+  {{ range $items }}
+    <span class="taglist__chip">{{ trim . " " }}</span>
+  {{ end }}
+</div>

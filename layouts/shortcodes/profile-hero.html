@@ -1,0 +1,16 @@
+<div class="profile-header">
+  <img class="profile-header__cover"
+       src="{{ .Get "cover" }}" alt="{{ .Get "cover_alt" }}">
+  {{ with .Get "avatar" }}
+    <img class="profile-header__avatar" src="{{ . }}" alt="Profile photo">
+  {{ end }}
+</div>
+
+<!-- Text block under the images -->
+<div class="profile-header__text">
+  <h1 class="profile-header__name">{{ .Get "name" }}</h1>
+  <div class="profile-header__title">{{ .Get "title" }}</div>
+  {{ with .Get "location" }}
+    <div class="profile-header__location">{{ . }}</div>
+  {{ end }}
+</div>

@@ -3,6 +3,8 @@ date: '2025-08-02'
 draft: false
 title: ''
 hiddenFromHomePage: true
+comment:
+  enable: false
 ---
 
 {{< profile-hero

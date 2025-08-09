@@ -7,7 +7,7 @@ comment:
   enable: false
 ---
 
-{{< profile-hero
+{{< about/profile-hero
     name="Ahmed Othman"
     title="Senior Software Engineering Manager"
     location="Berlin, Germany"
@@ -16,12 +16,12 @@ comment:
     avatar="/images/aothman_avatar.jpg"
 >}}
 
-{{< section "Summary" >}}
+{{< about/section "Summary" >}}
 Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Currently looking after the Core Search teams at Zalando, based in Berlin, Germany 🇩🇪. Before that, I used to manage multiple engineering teams at Rakuten, based in Tokyo, Japan 🇯🇵.
 
 
-{{< section "Leadership Experience" >}}
-{{< experience-card
+{{< about/section "Leadership Experience" >}}
+{{< about/experience-card
   logo="/images/about/zalando.png"
   company="Zalando SE"
   url="https://www.linkedin.com/company/zalando"
@@ -36,9 +36,9 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
 - Recruiting & onboarding; architecture/process workshops
 - Co-organized search round tables with peer companies
 - **Tech:** Scala, Python, Lucene, Elasticsearch, PyTorch, Amazon SageMaker, Kubernetes, AWS, BigQuery, Databricks
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
-{{< experience-card
+{{< about/experience-card
   logo="/images/about/rakuten_logo.jpg"
   company="Rakuten"
   url="https://www.linkedin.com/company/rakuten"
@@ -51,12 +51,12 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
 - Hiring, growth & training; backlog refinement; estimates & roadmaps
 - Scaled development with “scrum of scrums”
 - **Tech:** Java, Spring Boot, Cassandra, RabbitMQ, Azure
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
 
-{{< section "Software Engineering Experience" >}}
+{{< about/section "Software Engineering Experience" >}}
 
-{{< experience-card
+{{< about/experience-card
   logo="/images/about/solgen_labs.jpg"
   company="SolGen Labs / Floating Apps (Chili Piper)"
   title="Senior Software Engineer — SolGen Labs / Floating Apps"
@@ -65,9 +65,9 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
   location="New York, USA (remote)"
 >}}
 - Built Java + Spring integration between Google Apps & Salesforce
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
-{{< experience-card
+{{< about/experience-card
   logo="/images/about/espace.jpg"
   company="eSpace"
   url="https://www.linkedin.com/company/espace/"
@@ -77,9 +77,9 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
 >}}
 - Scalable web applications; mentored engineers  
 - **Tech:** Ruby on Rails, Python, Node.js
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
-{{< experience-card
+{{< about/experience-card
   logo="/images/about/solgen_labs.jpg"
   company="SolGen Labs"
   url="https://www.linkedin.com/company/solgen-tech"
@@ -89,9 +89,9 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
 >}}
 - Co-founded company; built **TaxiNTime** (early taxi-hailing app)
 - MVP development, business plan, pitching & fundraising
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
-{{< experience-card
+{{< about/experience-card
   logo="/images/about/wstars.webp"
   company="Wireless Stars"
   url="https://www.linkedin.com/company/wireless-stars"
@@ -100,9 +100,9 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
   location="Alexandria, Egypt"
 >}}
 - Location-based social network; big-data analytics for product strategy
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
-{{< experience-card
+{{< about/experience-card
   logo=""
   company="EDC / Mubasher.info"
   url="https://www.linkedin.com/company/globalfinancialmedia/"
@@ -111,9 +111,9 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
   location="Alexandria, Egypt"
 >}}
 - High-scale web & fintech applications using Java & Spring; agile delivery
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
-{{< experience-card
+{{< about/experience-card
   logo="/images/about/faculty_of_science_alexandria_university_logo.jpg"
   company="Alexandria University"
   url="https://www.linkedin.com/company/faculty-of-science-alexandria-university"
@@ -122,16 +122,16 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
   location="Alexandria, Egypt"
 >}}
 - Taught: Introduction to Programming, System Software, Distributed Systems, AI
-{{< /experience-card >}}
+{{< /about/experience-card >}}
 
-{{< section "Education" >}}
-{{< edu-card degree="BSc in Computer Science" school="Alexandria University" year="2007" >}}
-{{< edu-card degree="Graduate Certificate in Leadership and Management" school="Harvard Business school (Online)" year="2021" >}}
+{{< about/section "Education" >}}
+{{< about/edu-card degree="BSc in Computer Science" school="Alexandria University" year="2007" >}}
+{{< about/edu-card degree="Graduate Certificate in Leadership and Management" school="Harvard Business school (Online)" year="2021" >}}
 
-{{< section "Skills" >}}
-{{< taglist items="Engineering Management, Managing Managers, Hiring, Search & Ranking Systems, Org Design & Scaling, Technical Strategy & Roadmaps, Career Coaching, New Managers Mentorship, IC-to-Manager Coaching" >}}
+{{< about/section "Skills" >}}
+{{< about/taglist items="Engineering Management, Managing Managers, Hiring, Search & Ranking Systems, Org Design & Scaling, Technical Strategy & Roadmaps, Career Coaching, New Managers Mentorship, IC-to-Manager Coaching" >}}
 
-{{< section "Interests" >}}
+{{< about/section "Interests" >}}
 - Chess
 - Squash
 - Poker

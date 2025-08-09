@@ -209,3 +209,9 @@ html[data-theme="dark"], html.dark {
   image-rendering: auto;
   background-color: #fff;
 }
+
+/* Fix excessive padding between post content and comments */
+.tw-pt-32 {
+  padding-top: 2rem !important;  /* Reduce from 8rem to 2rem */
+}
+

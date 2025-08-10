@@ -2,7 +2,9 @@
 date: '2025-07-06'
 draft: true
 title: 'Why Did I decide to write a Blog?'
-featuredImage: "blog.webp"
+featuredImage: 'blog.webp'
+featuredImagePreview: 'blog.webp'
+images: ['blog.webp']
 description: 'post description 5'
 summary: 'this is the summary of the post that I want to write 3'
 tags: ['blogging', 'journey']

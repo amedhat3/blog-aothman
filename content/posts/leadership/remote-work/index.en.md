@@ -3,10 +3,12 @@ date: '2021-04-08'
 draft: false
 title: 'Working From Home Can Be Fun and Productive—When You Do It Right'
 featuredImage: 'remote-work.png'
+featuredImagePreview: 'remote-work.png'
 description: 'This post shares practical ways to make remote work both productive and enjoyable. From building trust and flexibility to cutting meeting overload and restoring social connection, it offers lessons any leader can use to help their team thrive from home.'
 summary: 'This post shares practical ways to make remote work both productive and enjoyable. From building trust and flexibility to cutting meeting overload and restoring social connection, it offers lessons any leader can use to help their team thrive from home.'
 categories: ['leadership']
 tags: ['management', 'team-development', 'leadership', 'remote-work']
+images: ['remote-work.png']
 ---
 
 When the pandemic hit, I thought remote work would simply mean “same job, different location.” I was wrong. Overnight, my team’s days filled with back-to-back video calls, blurred boundaries between work and home, and a creeping sense of burnout. Even the most motivated team members were running on fumes.

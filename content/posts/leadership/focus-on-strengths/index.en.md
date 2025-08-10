@@ -3,6 +3,8 @@ date: '2021-04-09'
 draft: false
 title: 'Why Leaders Should Focus on Strengths, Not Weaknesses'
 featuredImage: 'focus-on-strengths.png'
+featuredImagePreview: 'focus-on-strengths.png'
+images: ['focus-on-strengths.png']
 description: 'This post explores why focusing on strengths—rather than fixing weaknesses—can boost team morale, improve collaboration, and drive better results. It shares practical lessons and strategies leaders can use to bring out the best in their teams.'
 summary: 'This post explores why focusing on strengths—rather than fixing weaknesses—can boost team morale, improve collaboration, and drive better results. It shares practical lessons and strategies leaders can use to bring out the best in their teams.'
 categories: ['leadership']

@@ -1,1 +1,9 @@
 env = "production"
+
+# Analytics (Umami - cookieless & GDPR compliant)
+[analytics]
+  enable = true
+  
+  [analytics.umami]
+    data_website_id = "9be4abf0-3bec-4f33-b9b9-65acec92a8c9"
+

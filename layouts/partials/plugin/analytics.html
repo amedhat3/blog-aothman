@@ -1,0 +1,8 @@
+{{- $analytics := .Scratch.Get "analytics" | default dict -}}
+
+{{- if $analytics.enable -}}
+    {{- /* Umami Analytics - Cookieless & GDPR Compliant */ -}}
+    {{- with $analytics.umami.data_website_id -}}
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="{{ . }}"></script>
+    {{- end -}}
+{{- end -}}

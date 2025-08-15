@@ -88,7 +88,7 @@ favicon = "/favicon.ico"
         disclaimer = """
             <div class="hero-cta">
                 <a class="btn-primary" href="mailto:blog@aothman.de?subject=REF:Blog Contact-Me:">Contact me</a>
-                <a class="btn-secondary" href="https://cal.com/aothman/" target="_blank">Book an appointment</a>
+                <a class="btn-secondary" href="https://mentorcruise.com/mentor/ahmedothman" target="_blank">Book an appointment</a>
             </div>
         """
     # Home page posts

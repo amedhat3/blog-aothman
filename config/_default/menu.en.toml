@@ -22,8 +22,8 @@
   title = ""
   weight = 2
 [[main]]
-  identifier = "about"
-  pre = ""
+  identifier = "My Journey"
+  pre = "🚂"
   post = ""
   name = "About"
   url = "/about"

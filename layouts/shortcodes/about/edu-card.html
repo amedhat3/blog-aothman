@@ -1,1 +1,12 @@
-<p class="edu-card"><strong>{{ .Get "degree" }}</strong>, {{ .Get "school" }} {{ with .Get "year" }}({{ . }}){{ end }}</p>
+{{ $logo := .Get "logo" }}
+{{ $url := .Get "url" }}
+{{ $school := .Get "school" }}
+
+<div class="experience-card">
+    <div class="experience-card__logo">
+        {{ with $logo }}<a href="{{ $url }}"><img src="{{ . }}" alt="{{ $school }} logo"></a>{{ end }}
+    </div>
+    <div class="experience-card__body">
+        <p class="edu-card"><strong>{{ .Get "degree" }}</strong>, {{ .Get "school" }} {{ with .Get "year" }}({{ . }}){{ end }}</p>
+    </div>
+</div>

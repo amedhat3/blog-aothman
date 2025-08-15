@@ -18,6 +18,7 @@ html[data-theme="light"], html.light {
   --showcase-hover-color: var(--fgColor-link-hover);
   --pagination-link-color: var(--fgColor-link);
   --pagination-link-hover-color: var(--fgColor-link-hover);
+  --global-border-color: var(--fgColor-link-hover);
 }
 
 html[data-theme="dark"], html.dark {
@@ -36,6 +37,7 @@ html[data-theme="dark"], html.dark {
   --showcase-hover-color: var(--fgColor-link-hover);
   --pagination-link-color: var(--fgColor-link);
   --pagination-link-hover-color: var(--fgColor-link-hover);
+  --global-border-color: var(--fgColor-link-hover);
 }
 
 /* Center the row */
@@ -154,7 +156,7 @@ html[data-theme="dark"], html.dark {
   display: flex;
   gap: 16px;
   align-items: flex-start;
-  margin: 20px 0;
+  margin: 5px 0;
   padding: 16px 0;
   border-top: 1px solid var(--card-border);
 }
@@ -163,7 +165,7 @@ html[data-theme="dark"], html.dark {
 .experience-card__logo img { width: 70px; height: auto; }
 .experience-card__body { flex: 1; }
 .experience-card__title { margin: 0 0 6px 0; }
-.experience-card__dates { font-weight: 400; opacity: .75; }
+.experience-card__dates { font-weight: 100; font-size: initial; opacity: .75; }
 
 /* Education */
 .edu-card { margin: 6px 0 0 0; }
@@ -215,3 +217,12 @@ html[data-theme="dark"], html.dark {
   padding-top: 2rem !important;  /* Reduce from 8rem to 2rem */
 }
 
+hr {
+  border-top: 2px solid var(--global-border-color) !important;
+}
+
+
+.home[posts] .summary {
+  border-bottom: 1px solid var(--global-border-color);
+  padding: 16px;
+}

@@ -27,7 +27,7 @@ Senior Technology Leader and 3x co-founder, originally from Egypt 🇪🇬. Curr
   company="Zalando SE"
   url="https://www.linkedin.com/company/zalando"
   title="Software Engineering Manager — Zalando SE"
-  dates="Mar 2017 – Present"
+  dates="October 2017 – Present"
   location="Berlin, Germany"
 >}}
 
@@ -47,7 +47,7 @@ Building the largest Fashion Search Engine in Europe (Lexical and Semantic)
   company="MentorCruise"
   url="https://www.linkedin.com/company/mentorcruise"
   title="Software Engineering Management Mentor"
-  dates="Aug 2025 – Present"
+  dates="August 2025 – Present"
   location="Remote"
 >}}
 Mentoring and Coaching Software Engineering Managers to navigate the leadership journey
@@ -58,7 +58,7 @@ Mentoring and Coaching Software Engineering Managers to navigate the leadership 
   company="Plato HQ"
   url="https://www.linkedin.com/company/platohq"
   title="Software Engineering Management Mentor"
-  dates="Feb 2021 – Sep 2024"
+  dates="February 2021 – September 2024"
   location="Remote"
 >}}
 Mentoring and Coaching Software Engineering Managers to navigate the leadership journey
@@ -70,7 +70,7 @@ Mentoring and Coaching Software Engineering Managers to navigate the leadership 
   company="Rakuten"
   url="https://www.linkedin.com/company/rakuten"
   title="Software Engineering Lead — Rakuten"
-  dates="Dec 2014 – Jul 2017"
+  dates="December 2014 – July 2017"
   location="Tokyo, Japan"
 >}}
 Building and delivering **Rakuten ID** unified profile and authentication for the whole company group companies
@@ -86,7 +86,7 @@ Building and delivering **Rakuten ID** unified profile and authentication for th
   company="Alexandria University"
   url="https://www.linkedin.com/company/faculty-of-science-alexandria-university"
   title="University Teaching Assistant — Alexandria University"
-  dates="Sep 2007 – Jan 2008"
+  dates="September 2007 – January 2008"
   location="Alexandria, Egypt"
 >}}
 Taught: Introduction to Programming, System Software, Distributed Systems, AI
@@ -99,7 +99,7 @@ Taught: Introduction to Programming, System Software, Distributed Systems, AI
   company="SolGen Labs / Floating Apps (Chili Piper)"
   title="Senior Software Engineer — SolGen Labs / Floating Apps"
   url="https://www.linkedin.com/company/solgen-tech"
-  dates="Jan 2014 – Nov 2014"
+  dates="January 2014 – November 2014"
   location="New York, USA (remote)"
 >}}
 - Built Java + Spring integration between Google Apps & Salesforce
@@ -110,7 +110,7 @@ Taught: Introduction to Programming, System Software, Distributed Systems, AI
   company="eSpace"
   url="https://www.linkedin.com/company/espace/"
   title="Senior Software Engineer — eSpace"
-  dates="Apr 2013 – Mar 2014"
+  dates="April 2013 – March 2014"
   location="Alexandria, Egypt"
 >}}
 - Scalable web applications; mentored engineers  
@@ -122,7 +122,7 @@ Taught: Introduction to Programming, System Software, Distributed Systems, AI
   company="SolGen Labs"
   url="https://www.linkedin.com/company/solgen-tech"
   title="Founder / CEO — SolGen Labs"
-  dates="Oct 2012 – Mar 2013"
+  dates="October 2012 – March 2013"
   location="Alexandria, Egypt"
 >}}
 - Co-founded company; built **TaxiNTime** (early taxi-hailing app)
@@ -134,7 +134,7 @@ Taught: Introduction to Programming, System Software, Distributed Systems, AI
   company="Wireless Stars"
   url="https://www.linkedin.com/company/wireless-stars"
   title="Software Engineer — Wireless Stars"
-  dates="Nov 2011 – Oct 2012"
+  dates="November 2011 – October 2012"
   location="Alexandria, Egypt"
 >}}
 Building Location-based social network; big-data analytics for product strategy
@@ -146,7 +146,7 @@ Building Location-based social network; big-data analytics for product strategy
   company="EDC / Mubasher.info"
   url="https://www.linkedin.com/company/globalfinancialmedia/"
   title="Software Engineer — EDC / Mubasher.info"
-  dates="Mar 2009 – Oct 2011"
+  dates="March 2009 – October 2011"
   location="Alexandria, Egypt"
 >}}
 High-scale web & fin-tech applications like Virtual Trading and Speculation Game.
@@ -172,3 +172,8 @@ High-scale web & fin-tech applications like Virtual Trading and Speculation Game
 - Snowboarding 🏂
 - Cycling 🚴
 - Exploring new cultures 🌍
+- Countries traveled to so far in order of the time of the first visit are:
+  * 🇪🇬🇦🇪🇹🇷🇯🇵🇹🇭🇲🇾🇮🇩🇵🇭🇶🇦🇰🇼🇻🇳🇺🇸
+  * 🇮🇳🇨🇳🇰🇷🇭🇰🇲🇴🇩🇪🇮🇹🇻🇦🇨🇿🇦🇹🇭🇺🇨🇭
+  * 🇱🇮🇸🇮🇵🇱🇬🇷🇵🇹🇪🇸🇩🇰🇳🇴🇧🇪🇱🇺🇫🇷🇲🇨
+  * 🇸🇦🇬🇧🇩🇿
